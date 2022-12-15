@@ -5,7 +5,177 @@
     color: white;
 }
 .hoodies h1
-{ 
+{   
+    background:rgb(74, 49, 49);
    text-align: center;
-   
+   margin: 0px;
+   padding: 3%;
+   font-size: 5vh;
+}
+.list
+{    margin:1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-item
+{
+    border: 2px solid white;
+    border-collapse:collapse ;
+    border-radius: 12px;
+    margin: 12px;
+    padding: 10px; 
+}
+.list-item:hover
+{
+    transform: translate(10px,-10px);
+    padding: 40px 40px;
+    background: rgb(128, 95, 67);
+    border:4px solid rgb(22, 22, 22);
+}
+
+.list-item button{ 
+    margin: 20px;
+    display: block;
+    padding: 5% 20%;
+    color: white;
+    background: linear-gradient(90deg,rgb(64, 35, 1),rgb(53, 31, 31));
+    border-radius: 11px;
+    transition: all ease-in-out 500ms ;
+}
+.list-item button:hover
+{
+    color: rgb(214, 225, 0);
+    background: rgb(2, 2, 2);
+}
+.sweatshirt
+{
+    background: rgb(146, 78, 78);
+}
+.sweatshirt h1
+{ 
+    background: rgb(123, 64, 64);  
+    
+    text-align: center;
+    color: white;
+    padding: 3%;
+    font-size:5vh ;
+}
+.sweats
+{ 
+    display: flex;
+    flex-wrap:wrap;
+}
+.sweats-item
+{ 
+    border: 2px solid white;
+    border-collapse:collapse ;
+    border-radius: 12px;
+    margin: 12px;
+    padding: 10px; 
+    transition: padding ease-in-out 600ms;
+}
+.sweats-item:hover
+{   transform: translate(10px,-10px);
+    padding: 40px 40px;
+    background: rgb(47, 23, 3);
+    border:4px solid rgb(89, 43, 43);
+}
+.sweats button
+{
+    margin: 20px;
+    display: block;
+    padding: 5% 20%;
+    color: white;
+    background: linear-gradient(90deg,rgb(64, 35, 1),rgb(53, 31, 31));
+    border-radius: 11px;
+    transition: all ease-in-out 500ms ;
+}
+.sweats button:hover
+{
+    color: rgb(214, 225, 0);
+    background: rgb(2, 2, 2);
+}
+.tshirt{
+    background:rgb(142, 95, 95);
+}
+.ts
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tshirt h1
+{ 
+    background: rgb(149, 78, 78);  
+    
+    text-align: center;
+    color: white;
+    padding: 3%;
+    font-size:5vh ;
+}
+.ts-item{
+    border: 2px solid white;
+    border-collapse:collapse ;
+    border-radius: 12px;
+    margin: 12px;
+    padding: 10px;   
+    transition: padding ease-in-out 600ms;
+}
+.ts-item:hover{
+    transform: translate(10px,-10px);
+    padding: 40px 40px;
+    background: rgb(118, 92, 92);
+    border:4px solid rgb(1, 1, 1);
+}
+.ts button
+{
+    margin: 20px;
+    display: block;
+    padding: 5% 20%;
+    color: white;
+    background: linear-gradient(90deg,rgb(64, 35, 1),rgb(53, 31, 31));
+    border-radius: 11px;
+    transition: all ease-in-out 500ms ;
+}
+.ts button:hover
+{
+    color: rgb(214, 225, 0);
+    background: rgb(2, 2, 2);
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+}
+.nav-links 
+{ flex: 1;
+  text-align: center;
+}
+
+  .nav-links ul li{ 
+    list-style:none;
+    display: inline-block;
+    padding: 8px 25px;
+    position: relative;
+}
+.nav-links ul li a{ 
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:cursive ;
+
+}
+.nav-links ul li::after
+{ 
+    content: "";
+    width:0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin:auto;
+    transition: 0.6s;
+}
+.nav-links ul li:hover::after
+{ 
+width:100%
 }
